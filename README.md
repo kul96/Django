@@ -1,9 +1,9 @@
 # Django
 start with Django 
 #install 
-setup virtual enviorment for project
+#setup virtual enviorment for project
 > pip install virtual envwrapper-win
-create enviroment
+#create enviroment
 >mkvirtualenv Project_name
-install Django
+#install Django
 >pip install django
