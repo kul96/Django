@@ -7,7 +7,7 @@ start with Django
 > mkvirtualenv Project_name
 # install Django
 > pip install django
-# run if work env is not run eg.(test)D:\.....
+# run if work env is not run eg.(test)D:\\.....
 > workon test(work env name)
 # make project dir
 > mkdir project_folder_name
