@@ -3,6 +3,8 @@ start with Django
 # install 
 # setup virtual enviorment for project
 > pip install virtual envwrapper-win
+> why? because every project have diff setting of django so we create separate env. we 
+> cann't create env than same setting for all django project
 # create enviroment
 > mkvirtualenv Project_name
 # install Django
