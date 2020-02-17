@@ -19,11 +19,13 @@ from django.urls import path, include
 
 urlpatterns = [
     # these are all path ex. 127.0.0.1/8000/XXXX page 
-    # this is bydefault for home or index path
+    # this is bydefault for home page which call cal.urls file
     path('',include('cal.urls')),
+
     # this is for 127.0.0.1/8000/admin page
     path('admin/', admin.site.urls),
     # looking for cal
-    path('cal/',include('cal.urls'))
+    path('cal',include('cal.urls')),
+    path('travello',include('travello.urls'))
 
 ]
