@@ -15,7 +15,7 @@ start with Django
 > mkdir project_folder_name
 >> cd project_folder_name
 # start project
->## django-admin startproject
+>## django-admin startproject project_name
 # Access server
 >## python manage.py runserver
 # start app
